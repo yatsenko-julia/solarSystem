@@ -38,6 +38,9 @@ void draw(){
     fill( #ffff99);
     ellipse(center,center,70,70);
 
+    noFill();
+    ellipse(350,350, 100, 100);
+    
     float x = center + cos(angle1) * scalar1;
     float y = center + sin(angle1) * scalar1;
     fill(#ffd9b3);
